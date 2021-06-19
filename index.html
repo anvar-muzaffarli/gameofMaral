@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="siyahi">
+        <img src="./images/paper.png" alt="kagiz" id="kagiz" width="300" height="300" data-id="0">
+        <img src="./images/qayçı.png" alt="qayci" id="qayci" width="300" height="300" data-id="1">
+        <img src="./images/daş.png" alt="das" id="das" width="300" height="300" data-id="2">
+    </div>
+
+
+    <div id="komputer-netice">
+        <img src="./images/noutbuk.png" id="komputer-secim" alt="komputer-netice" width="300" height="300">
+    </div>
+
+    <div id="netice">
+
+    </div>
+    <script src="./oyun.js"></script>
+
+    <div>
+        <audio src="./music/surpriz.mp3" preload="auto" id="sound1"></audio>
+        <button class="btn" onclick="document.getElementById('sound1').play();">Məğlub oldunsa kliklə</button>
+        <button class="btn" onclick="document.getElementById('sound1').pause();">Yaxşı, cəzan bitdi :))</button>
+    </div>
+</body>
+</html>

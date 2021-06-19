@@ -1,0 +1,31 @@
+body {
+    background: url('https://source.unsplash.com/random');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#siyahi img{
+padding: 10px;
+border: 2px solid #17ff1f;
+}
+
+#komputer-netice {
+    float: left;
+}
+
+#netice {
+    float: left;
+    width: 260px;
+    height: 260px;
+    font-size: 2rem;
+    padding: 20px;
+    background: #17ff1f;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    color:white;
+    background-color: #17ff1f;
+}
